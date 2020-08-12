@@ -1,0 +1,28 @@
+body{
+	font-family: 'Fondamento', cursive;
+}
+#inner-div{
+	width: 50%;
+	text-align: center;
+	margin-top: 10%;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#play-button-parent{
+	text-align: center;
+}
+
+#p1{
+	float: left;
+}
+#p2{
+	float: right;
+}
+
+.winner{
+	color: green;
+	text-decoration-line: underline;
+  	text-decoration-style: solid;
+}

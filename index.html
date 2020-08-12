@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Counter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap" rel="stylesheet">
+</head>
+<body style="background-color:#DCDCDC; font-family: 'Grenze Gotisch', cursive;">
+
+	<div class="container" id="inner-div">
+		<h1><span id="p1display">0</span> - <span id="p2display">0</span></h1>
+		<div class="form-group">
+			<input type="number" class="form-control" name="text_box" placeholder="Playing upto.." min="1" max="100">
+		</div>
+		<p>Playing to: <span id="wsdisplay">5</span></p>
+		<div id="play-button-parent">
+			<div>
+				<button class="btn btn-success" id="p1">Player 1</button>
+				<button class="btn btn-danger" id="reset"> Reset </button>
+				<button class="btn btn-warning" id="p2">Player 2</button>
+				
+			</div>
+		</div>
+
+	</div>
+	
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
